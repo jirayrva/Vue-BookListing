@@ -9,7 +9,7 @@ export default {
   name: "BookItem",
   props: {
     book: {
-      type: String,
+      type: string,
       default: "",
     },
   },
