@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png" />
     <!-- <hello-world></hello-world> -->
-    <BookList />
+    <book-list />
   </div>
 </template>
 
