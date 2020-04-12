@@ -3,7 +3,7 @@
     <h1>{{ title }}</h1>
     <ul>
       <li v-for="book in books" v-bind:key="book.title">
-        {{ book.title }}: {{ book.author }}
+        {{ book.title }}:{{ book.author }}
       </li>
     </ul>
   </div>
@@ -18,7 +18,7 @@ export default {
       books: [
         { title: "Self-Reliance", author: "Ralph Waldo Emerson" },
         { title: "American Gods", author: "Neil Gaiman" },
-        { title: "Amusing Outselves to Death", author: "Neil Postman" },
+        { title: "Amusing Ourselves to Death", author: "Neil Postman" },
       ],
     };
   },
