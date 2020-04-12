@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" />
-    <!-- <hello-world></hello-world> -->
     <book-list />
   </div>
 </template>
